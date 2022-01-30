@@ -106,8 +106,11 @@ div.container img {
         width: 70%;
         display: flex;
         flex-direction: column;
-    
     }
-    
 }
-
+div.box:hover {
+    border: 2px solid rgb(49, 40, 40);
+  }
+a: {
+background: transparent 80%;
+}
