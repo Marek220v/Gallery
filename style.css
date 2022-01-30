@@ -111,6 +111,12 @@ div.container img {
 div.box:hover {
     border: 2px solid rgb(49, 40, 40);
   }
-a: {
-background: transparent 80%;
+
+.fullscreen {
+position:fixed;
+width: 80%;
+height: auto;
+top: 10vh;
+left: 10vw;   
+background: transparent;
 }
