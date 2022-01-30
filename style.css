@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: auto;
+    width: 1500px;
+    height: 2000px;
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'box8 box1 box9'
+                          'box8 box1 box9'
+                          'box8 box10 box9'
+                          'box3 box10 box2'
+                          'box3 box10 box2'
+                          'box11 box10 box4'
+                          'box11 box5 box4'
+                          'box11 box5 box12'
+                          'box6 box6 box12'
+                          'box6 box6 box12';
+}
+.box1 {
+background-size: 500px 400px;
+    grid-area: box1;
+ background-image: url('images/1.jpg');
+ margin: 3px;
+}
+
+
+
+.box2{
+    background-size: 500px 400px;
+    grid-area: box2;
+background-image: url('images/2.jpg');
+margin: 3px;
+}
+
+
+
+.box3 {
+    background-size: 500px 400px;
+    margin: 3px;
+background-image: url('images/3.jfif');
+    grid-area: box3;
+}
+
+
+
+.box4 {
+    background-size: 500px 400px;
+    margin: 3px;
+background-image: url('images/4.jpg');
+    grid-area: box4;
+}
+
+
+
+.box5 {
+    background-size: 500px 400px;
+    margin: 3px;
+background-image: url('images/5.jpg');
+    grid-area: box5;
+}
+
+
+
+.box6 {
+    background-size: 1000px 400px;
+    margin: 3px;
+ background-image: url('images/6.jpg');
+    grid-area: box6;
+}
+
+
+
+.box8 {
+    background-size: 500px 600px;
+    margin: 3px;
+   background-image: url('images/1v.jpg');
+    grid-area: box8;
+}
+
+
+
+.box9 {
+    background-size: 500px 600px;
+    margin: 3px;
+background-image: url('images/2v.webp');
+    grid-area: box9;
+}
+
+
+
+.box10 {
+    background-size: 500px 800px;
+    margin: 3px;
+  background-image: url('images/3v.jpg');
+    grid-area: box10;
+}
+
+
+
+.box11 {
+    background-size: 500px 600px;
+    margin: 3px;
+ background-image: url('images/4v.jpeg');
+    grid-area: box11;
+}
+
+
+
+.box12 {
+    background-size: 500px 600px;
+    margin: 3px;
+ background-image: url('images/5v.jpg');
+    grid-area: box12;
+}
