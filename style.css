@@ -114,9 +114,17 @@ div.box:hover {
 
 .fullscreen {
 position:fixed;
-width: 80%;
-height: auto;
+width: 90%;
+height: 80%;
 top: 10vh;
-left: 10vw;   
+left: 5vw;   
 background: transparent;
+}
+.fullscreen1 {
+    position:fixed;
+    width: 60%;
+    height: 96%;
+    top: 2vh;
+    left: 20vw;   
+    background: transparent;
 }
